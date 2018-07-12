@@ -13,7 +13,7 @@ namespace UTNBotApp
 		{
 			InitializeComponent();
 
-			MainPage = new UTNBotApp.MainPage();
+			MainPage = new NavigationPage(new UTNBotApp.Paginas.PaginaBot());
 		}
 
 		protected override void OnStart ()
